@@ -6,5 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".KelilingPersegi">
 
-
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/persegilayar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="Keliling Persegi"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text="Masukkan sisi:"
+        android:textSize="22dp"/>
+    <EditText
+        android:id="@+id/edP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:textSize="22dp"/>
+    <Button
+        android:id="@+id/bttnKP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="100dp"
+        android:text="HITUNG KELILING"
+        android:textSize="22dp"/>
+    <TextView
+        android:id="@+id/hKP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="100dp"
+        android:text="hasil"
+        android:textSize="22dp"/>
 </RelativeLayout>

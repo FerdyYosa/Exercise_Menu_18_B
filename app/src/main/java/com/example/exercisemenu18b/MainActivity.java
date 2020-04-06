@@ -2,6 +2,7 @@ package com.example.exercisemenu18b;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick (View v) {
                 if (Pass.getText().toString().equals("123") && Nama.getText().toString().equals("admin")) {
-                    Toast.makeText(getApplicationContext(), "Login Success", Toast.LENGTH_LONG).show();
+                    Intent intent = new Intent(MainActivity.this, ListBangun.class);
+                    startActivity(intent);
                 }
                 else {
                     Toast.makeText(getApplicationContext(), "Password Salah", Toast.LENGTH_LONG).show();

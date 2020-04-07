@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="210dp"
         android:text="Keliling Trapesium"
         android:textStyle="bold"
         android:textSize="22dp"
@@ -22,26 +22,26 @@
     <TextView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="240dp"
         android:text="Masukkan panjang AB:"
         android:textSize="18dp"/>
     <TextView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="310dp"
         android:text="Masukkan panjang EF:"
         android:textSize="18dp"/>
     <TextView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="390dp"
+        android:layout_marginTop="360dp"
         android:text="Masukkan panjang AE:"
         android:textSize="18dp"/>
     <EditText
         android:id="@+id/edP"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="250dp"
         android:layout_marginLeft="100dp"
         android:textStyle="bold"
         android:inputType="number"
@@ -50,7 +50,7 @@
         android:id="@+id/edP2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="310dp"
         android:layout_marginLeft="100dp"
         android:textStyle="bold"
         android:inputType="number"
@@ -59,7 +59,7 @@
         android:id="@+id/edP3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="390dp"
+        android:layout_marginTop="360dp"
         android:layout_marginLeft="100dp"
         android:textStyle="bold"
         android:inputType="number"
@@ -68,7 +68,7 @@
         android:id="@+id/bttnKP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="420dp"
         android:layout_marginLeft="100dp"
         android:text="HITUNG KELILING"
         android:textSize="22dp"/>
@@ -76,7 +76,7 @@
         android:id="@+id/hKP"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="470dp"
         android:textAlignment="center"
         android:text="hasil"
         android:textSize="22dp"/>

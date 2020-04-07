@@ -63,4 +63,12 @@
         android:text="TRAPESIUM"
         android:layout_marginLeft="90dp"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="140dp"
+        android:text="20180140054-Muhammad Ferdy Yosa"
+        android:layout_marginLeft="90dp"
+        />
 </RelativeLayout>

@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LuasPersegiPanjang">
+    tools:context=".KelilingPersegi">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/persegipanjanglayar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Luas Persegi Panjang"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="Masukkan panjang:"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text="Masukkan lebar:"
+        android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/edP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="22dp"/>
+    <EditText
+        android:id="@+id/edP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="22dp"/>
+    <Button
+        android:id="@+id/bttnKP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="100dp"
+        android:text="HITUNG LUAS"
+        android:textSize="22dp"/>
+    <TextView
+        android:id="@+id/hKP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="460dp"
+        android:textAlignment="center"
+        android:text="hasil"
+        android:textSize="22dp"/>
+</RelativeLayout>

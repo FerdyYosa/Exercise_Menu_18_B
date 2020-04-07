@@ -68,7 +68,7 @@ public class ListBangun extends AppCompatActivity implements
             public void onClick(View view) {
                 PopupMenu popup5 = new PopupMenu(ListBangun.this, view);
                 popup5.setOnMenuItemClickListener(ListBangun.this);
-                popup5.inflate(R.menu.menu2);
+                popup5.inflate(R.menu.menu5);
                 popup5.show();
             }
         });

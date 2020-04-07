@@ -33,7 +33,7 @@ public class LuasTrapesium extends AppCompatActivity {
                 n1 = Double.parseDouble(s1);
                 n2 = Double.parseDouble(s2);
                 n3 = Double.parseDouble(s3);
-                n4 = 1/2 * (n1+n2) * n3;
+                n4 = ((n1+n2)*n3)/2;
                 hKP.setText("Luas Trapesium dengan panjang AB: " + n1 + " dan panjang EF: " + n2 + " dan tinggi: " + n3 + " adalah: " + n4);
             }
         });

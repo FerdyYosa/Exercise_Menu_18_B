@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="270dp"
         android:text="Masukkan panjang AB:"
         android:textSize="18dp"/>
     <TextView
@@ -41,7 +41,7 @@
         android:id="@+id/edP"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="270dp"
         android:layout_marginLeft="100dp"
         android:textStyle="bold"
         android:inputType="number"

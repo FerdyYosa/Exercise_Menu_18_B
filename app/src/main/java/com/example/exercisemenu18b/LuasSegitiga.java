@@ -24,13 +24,13 @@ public class LuasSegitiga extends AppCompatActivity {
         bttnKP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s1, s2, s3;
+                String s1, s2;
                 s1 = edP.getText().toString();
                 s2 = edP2.getText().toString();
-                double n1, n2, n3, n4;
+                double n1, n2, n3;
                 n1 = Double.parseDouble(s1);
                 n2 = Double.parseDouble(s2);
-                n3 = 1/2 * n1 * n2;
+                n3 = (n1 * n2)/2;
                 hKP.setText("Luas Segitiga dengan alas: " + n1 + " , tinggi: " + n2 + " adalah: " + n3);
             }
         });

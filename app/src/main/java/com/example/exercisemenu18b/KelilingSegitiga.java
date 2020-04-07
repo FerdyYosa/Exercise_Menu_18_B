@@ -34,7 +34,7 @@ public class KelilingSegitiga extends AppCompatActivity {
                 n2 = Double.parseDouble(s2);
                 n3 = Double.parseDouble(s3);
                 n4 = n1 + n2 + n3;
-                hKP.setText("Keliling Segitiga dengan alas: " + n1 + " , tinggi: " + n2 + "dan sisi miring:" + n3 + " adalah: " + n4);
+                hKP.setText("Keliling Segitiga dengan alas: " + n1 + " , tinggi: " + n2 + " dan sisi miring:" + n3 + " adalah: " + n4);
             }
         });
     }
